@@ -17,11 +17,11 @@ Write a Node.js REST API application that handles the following:
   ```
   cd backend-challenge
   ```
-  Install all npm package: 
+- Install all npm package: 
   ```
   npm install
   ```
-  Go to package.json file to replace "scripte" as the following, therefore it will automatically restarting the node application when file changes in the directory are detected:
+- Go to package.json file to replace "scripte" as the following, therefore it will automatically restarting the node application when file changes in the directory are detected:
   ```
    "scripts": {
     "devStart": "nodemon server.js"
@@ -30,8 +30,8 @@ Write a Node.js REST API application that handles the following:
 - Visit Last.fm wetsite https://www.last.fm/login?next=/api/account/create to create an account, then you will have an API_KEY. Paste this API_KEY into .env file. 
 - Create ```.env``` file with the following variables:
   ```
-  PORT=<port>
-  API_KEY=<api-key>
+  PORT=<your-port>
+  API_KEY=<your-api-key>
   ```
 - Create ```.gitignore``` file with the following file names, we don't want people to see these files in the repo:
   ```
@@ -43,6 +43,7 @@ Write a Node.js REST API application that handles the following:
   ```
   npm run devStart
   ```
+- Go to `http://localhost:<your-port>/<artist-name>`, then you will get the search result directly in the root file.
 
 ## 
 Now you have it&nbsp;&nbsp;&nbsp;🎉&nbsp;&nbsp;&nbsp;🎶 <br>
