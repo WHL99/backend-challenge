@@ -27,7 +27,7 @@ Write a Node.js REST API application that handles the following:
     "devStart": "nodemon server.js"
   }
   ```
-- Visit Last FM wetsite https://www.last.fm/login?next=/api/account/create to create an account, then you will have an API_KEY. Paste this API_KEY into .env file. 
+- Visit Last.fm wetsite https://www.last.fm/login?next=/api/account/create to create an account, then you will have an API_KEY. Paste this API_KEY into .env file. 
 - Create ```.env``` file with the following variables:
   ```
   PORT
