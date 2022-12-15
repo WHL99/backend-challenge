@@ -30,8 +30,8 @@ Write a Node.js REST API application that handles the following:
 - Visit Last.fm wetsite https://www.last.fm/login?next=/api/account/create to create an account, then you will have an API_KEY. Paste this API_KEY into .env file. 
 - Create ```.env``` file with the following variables:
   ```
-  PORT
-  API_KEY
+  PORT=<port>
+  API_KEY=<api-key>
   ```
 - Create ```.gitignore``` file with the following file names, we don't want people to see these files in the repo:
   ```
